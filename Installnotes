@@ -1,0 +1,13 @@
+1. Maven Configuration
+-------------------
+Add M2_HOME, M2, MAVEN_OPTS to environment variables.
+
+M2_HOME=C:\Java\apache-maven-3.8.6 
+M2=%M2_HOME%\bin 
+MAVEN_OPTS=-Xms256m -Xmx512m
+
+2. Mysql Install
+----------------
+
+3.Postman Install
+-----------------
