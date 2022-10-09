@@ -1,0 +1,9 @@
+Netflix Eureka
+--------------
+Netflix Eureka to make a kind of server which can register the microservices & discover them when required by the other microservice. 
+We call it Eureka Server or Discovery server.
+Every Microservice will register into the Eureka server with a service Id and Eureka server will have information(port, IP addresses etc.)
+ of all the microservices running as client applications. 
+ A service (Spring Boot Application in our case) annotated with @EnableEurekaServer will work as Eureka server.  
+ 
+ --> API Gateway is the single entry & exit point of all the microservices in the application. 
