@@ -1,0 +1,28 @@
+Streams API
+----------
+	Intermediate operations
+		
+			1.filter(Predicate)
+			2.map(Function)
+			3.flatMap(Function)
+			4.sorted(Comparator)
+			5.peek(Consumer)
+			6.distinct()
+			7.limit(long n)
+			8.skip(long n)
+
+	Terminal operations
+	
+			1.forEach
+			2.forEachOrdered
+			3.toArray
+			4.reduce
+			5.collect
+			6.min
+			7.max
+			8.count
+			9.anyMatch
+			10.allMatch
+			11.noneMatch
+			12.findFirst
+			13.findAny

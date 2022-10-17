@@ -7,7 +7,7 @@ Excecutors
 
 Locks
    1.ReadWriteLock
-   2. StampedLock
+   2.StampedLock
    3.ReentrentLock
 
 Queues
