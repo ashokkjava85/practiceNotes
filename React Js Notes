@@ -4,3 +4,7 @@ Setup for React Js
 1. Install nodeJS install
 2. Run command to create a new project
 	npx create-react-app my-app
+3.  run the project by typing the command cd my-app.
+	cd my-app
+	npm start
+4. http://localhost:3000/  to see application 
