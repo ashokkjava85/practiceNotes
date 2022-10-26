@@ -1,0 +1,6 @@
+Setup for React Js 
+------------------
+
+1. Install nodeJS install
+2. Run command to create a new project
+	npx create-react-app my-app
