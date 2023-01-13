@@ -1,3 +1,23 @@
+Microservices Charterstics:
+-----------------------
+Loosely Coupled : Every service has seperate code base and repository
+Independently deployble : 
+Highly scalable
+resilent
+ collberative
+ 
+ 
+ Single responsible princeple
+ Bounded context :
+
+Microservices Archture
+Monolithic and microservices diffrences
+security in microservices
+Transctions in microservices
+12 Factor APP
+
+
+
 Netflix Eureka
 --------------
 Netflix Eureka to make a kind of server which can register the microservices & discover them when required by the other microservice. 
@@ -12,3 +32,31 @@ Every Microservice will register into the Eureka server with a service Id and Eu
  API Gateway
  --------------
   --> API Gateway is the single entry & exit point of all the microservices in the application.
+  
+  Design Pattrens in Microservices
+  Communication in microservices
+  Circuit braker design pattren
+  Bounded context
+  Logging in microservices
+  centrilised logging
+  session management in microservices
+  OAUTH
+  JWT
+  Event Sourcing
+scalability in microservices
+
+Saga Design Pattren
+
+
+Kafka
+---------
+Default message size in Kafka
+
+Producer Consumer Broker
+Topic queue
+Exception raise when message size more than limit
+replicate factor in kafka
+faulttolurence in replication factor
+
+  
+  
