@@ -4,11 +4,24 @@ Loosely Coupled : Every service has seperate code base and repository
 Independently deployble : 
 Highly scalable
 resilent
- collberative
+collberative
  
  
  Single responsible princeple
  Bounded context :
+
+
+Spring Cloud TechStack
+-----------------
+1.Eureka server tool integration
+2.Spring cloud config server
+3.Spring curcuit braker(replace Hysterix)
+4.Spring API Gateway(replace Zuul)
+5.Spring Load Balncer(Replace ribon)
+6.feign client
+
+
+
 
 Microservices Archture
 Monolithic and microservices diffrences
@@ -39,13 +52,15 @@ Every Microservice will register into the Eureka server with a service Id and Eu
   Bounded context
   Logging in microservices
   centrilised logging
-  session management in microservices
+  session management in microservices (State mangement)
   OAUTH
   JWT
   Event Sourcing
 scalability in microservices
 
-Saga Design Pattren
+Saga Design Pattren 
+https://www.baeldung.com/cs/saga-pattern-microservices
+Domain design pattren
 
 
 Kafka
@@ -57,6 +72,10 @@ Topic queue
 Exception raise when message size more than limit
 replicate factor in kafka
 faulttolurence in replication factor
+
+
+ELK Stack
+-----------
 
   
   
