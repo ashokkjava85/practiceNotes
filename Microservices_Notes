@@ -61,6 +61,8 @@ scalability in microservices
 Saga Design Pattren 
 https://www.baeldung.com/cs/saga-pattern-microservices
 Domain design pattren
+Bulkhead pattren
+
 
 
 Kafka
@@ -78,4 +80,12 @@ ELK Stack
 -----------
 
   
+  
+  
+  Any replacement for hystrix ?
+  Beacause it is old ? netflix stop support hystrix ?
+  JWT token inside details ?
+ How services discovery works in microservices euruka ?/
+How eureka server works internally?
+How to register microservices in eureka server ?
   

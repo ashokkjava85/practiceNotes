@@ -1,25 +1,2 @@
-@SpringBootApplication
-
-Transction management in Spring 
---------------------------
-ACID
-  1. Atomicity 
-  2. Consistency 
-  3. Isolation 
-  4. Durability
-  
-		  @EnableTransactionManagement 
-		  @Transactional
-		     1. isolation
-		     2. label 
-		     3. noRollbackFor 
-		     4. noRollbackForClassName
-		     5. rollbackFor
-		     6. rollbackForClassName
-		     7. propagation
-		     8. readOnly
-		     9. timeout 
-		     10.timeoutString
-		     11.transactionManager 
-		     12. value
-     
+Singleton pattren?
+factory design pattren vs Abstract design pattrn ?

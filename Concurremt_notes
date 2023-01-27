@@ -38,3 +38,33 @@ ConcurrentHashmap
 
 Fork/Join
 
+Java's Concurrent API provides a powerful set of tools for developing concurrent and multi-threaded applications. Some of the main features of the Concurrent API include:
+
+1.The Executor framework, which allows for the execution of tasks in separate threads and provides a high-level abstraction for
+ managing threads.
+
+2.The ExecutorService interface, which allows for the submission of Callable and Runnable tasks and provides methods for managing 
+their execution, such as shutdown and awaitTermination.
+
+3.The Future interface, which represents the result of an asynchronous computation and allows for the retrieval of the result,
+ cancellation of the task, and checking if the task is done or not.
+
+4.The ThreadPoolExecutor class, which is a concrete implementation of the ExecutorService interface and provides a configurable 
+thread pool.
+
+5.The CountDownLatch, CyclicBarrier, and Semaphore classes, which are synchronization aid classes for controlling the execution 
+flow of threads.
+
+6.The ConcurrentHashMap, ConcurrentLinkedQueue, and CopyOnWriteArrayList classes, which are thread-safe and high-performance 
+implementations of common collection types.
+
+7.The ForkJoinPool, which is a specialized thread pool for performing fork-join style computations and provides work-stealing 
+algorithms for improved performance.
+
+8.The Phaser class, which is a more flexible and powerful version of the CyclicBarrier class and allows for dynamic control over
+ the number of parties participating in a barrier.
+
+
+
+
+

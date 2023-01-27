@@ -23,4 +23,9 @@ ACID
 		     10.timeoutString
 		     11.transactionManager 
 		     12. value
-     
+ 
+ 
+ Spring Boot Autuator ?
+ Spring bean scopes ?
+ @Requestmapping vs @Getmapping ?
+ 
