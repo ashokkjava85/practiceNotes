@@ -79,6 +79,15 @@ faulttolurence in replication factor
 ELK Stack
 -----------
 
+
+Lossely Coupled
+developed independently
+deployed independently
+scale independently
+
+API gateway discover services from service registry and route to particular service
+
+
   
   
   
